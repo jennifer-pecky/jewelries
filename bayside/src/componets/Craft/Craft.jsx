@@ -4,8 +4,8 @@ import img from '../../assets/images/image5.png';
 const Craft = () => {
   return (
     <div className=" mt-36 max-h-[100%] w-[100%]">
-      <div className="lg:flex bg-[#002D69] lg:p-20 text-[#fff]">
-        <div className="space-y-7">
+      <div className="lg:flex text-[#fff]">
+        <div className="space-y-7  bg-[#002D69] lg:p-20">
           <h1 className="text-[54px] font-bold">
             HAND CRAFTED <br /> FINE PIECES
           </h1>

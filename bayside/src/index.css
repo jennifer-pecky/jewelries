@@ -91,8 +91,3 @@ footer {
     background: linear-gradient(#002D69, #FFF, #002D69, #fff);
     border-radius: 10px;
 }
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #fcfcfc;
-}

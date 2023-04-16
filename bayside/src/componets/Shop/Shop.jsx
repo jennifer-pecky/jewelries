@@ -6,6 +6,7 @@ import img4 from '../../assets/images/Item 4.png';
 import img5 from '../../assets/images/Item 5.png';
 import Craft from '../Craft/Craft';
 import Latest from '../Latest/Latest';
+import Serivices from '../Serivice/Serivices';
 
 const Shop = () => {
   return (
@@ -39,6 +40,7 @@ const Shop = () => {
       </div>
       <Craft />
       <Latest />
+      <Serivices />
     </div>
   );
 };

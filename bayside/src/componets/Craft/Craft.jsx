@@ -3,8 +3,8 @@ import img from '../../assets/images/image5.png';
 
 const Craft = () => {
   return (
-    <div className="lg:flex mt-36 max-h-[100%] w-[100%]">
-      <div className="bg-[#002D69] lg:p-20 text-[#fff]">
+    <div className=" mt-36 max-h-[100%] w-[100%]">
+      <div className="lg:flex bg-[#002D69] lg:p-20 text-[#fff]">
         <div className="space-y-7">
           <h1 className="text-[54px] font-bold">
             HAND CRAFTED <br /> FINE PIECES
@@ -20,9 +20,9 @@ const Craft = () => {
             </button>
           </div>
         </div>
-      </div>
-      <div className="max-w-[1289px]">
-        <img src={img} alt="" className=" w-[100%]" />
+        <div className="max-w-[1289px]">
+          <img src={img} alt="" className=" w-[100%]" />
+        </div>
       </div>
     </div>
   );

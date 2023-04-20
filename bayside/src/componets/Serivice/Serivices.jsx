@@ -2,6 +2,7 @@ import React from 'react';
 import img from '../../assets/images/serv.png';
 import img2 from '../../assets/images/serv2.png';
 import img3 from '../../assets/images/serv3.png';
+
 const Serivices = () => {
   return (
     <div className="lg:px-20 mt-24 sm:grid-cols-2">

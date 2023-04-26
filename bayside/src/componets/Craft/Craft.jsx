@@ -20,7 +20,7 @@ const Craft = () => {
             </button>
           </div>
         </div>
-        <div className="max-w-[1289px]">
+        <div>
           <img src={img} alt="" className=" w-[100%]" />
         </div>
       </div>

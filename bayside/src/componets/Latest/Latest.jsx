@@ -6,12 +6,12 @@ import img4 from '../../assets/images/“.png';
 
 const Latest = () => {
   return (
-    <div className="lg:px-20 mt-14">
+    <div className="md:px-20 mt-14">
       <div className=" space-y-12 mb-7">
         <h1 className=" text-[#002D69] text-[30px] leading-[43px] font-bold max-w-[100%]">
           OUR LATEST JEWELRY
         </h1>{' '}
-        <div className="lg:grid grid-cols-3 gap-16 ">
+        <div className="lg:flex gap-10 space-y-2">
           <img src={img} alt="" />
           <img src={img2} alt="" />
           <img src={img3} alt="" />

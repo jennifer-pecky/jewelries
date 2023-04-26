@@ -5,8 +5,8 @@ import Shop from '../Shop/Shop';
 const Hero = () => {
   return (
     <div>
-      <div className="max-w-[100%] md:w-[100%]">
-        <img src={img} alt="" />
+      <div className="">
+        <img src={img} alt="" className="w-[100%]" />
       </div>
       <Shop />
     </div>

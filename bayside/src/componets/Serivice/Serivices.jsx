@@ -5,12 +5,12 @@ import img3 from '../../assets/images/serv3.png';
 
 const Serivices = () => {
   return (
-    <div className="lg:px-20 mt-24 sm:grid-cols-2">
+    <div className="md:px-20 mt-24">
       <div className="space-y-12">
         <h1 className=" text-[#002D69] text-[36px] leading-[43px] font-bold max-w-[100%]">
           OUR SERVICES
         </h1>
-        <div className="lg:grid grid-cols-3 gap-14">
+        <div className="lg:flex gap-12">
           <div className="space-y-5">
             <img src={img} alt="" />
             <h2 className="text-[#002D69] text-[20px] lg:text-center">

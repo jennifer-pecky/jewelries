@@ -15,7 +15,7 @@ const Shop = () => {
         <div className="text-[#002D69] text-[30px] leading-[43px]">
           <h1 className="font-bold max-w-[100%]">SHOP BY JEWELRY TYPE</h1>
         </div>
-        <div className="lg:flex space-x-8 mt-12 grid-cols-1 ">
+        <div className="lg:flex gap-10 mt-12">
           <div className="flex flex-col items-center">
             <img src={img} alt="" />
             <p className="text-[#002D69] font-medium">EARRINGS</p>
